@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Level Monitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Water Level Monitor</h1>
+        <p id="water-level">Loading...</p>
+        <div id="alarm" style="display:none;">
+            <h2 style="color: red;">ALARM: Water Level is Low!</h2>
+            <audio id="alarm-sound" src="https://www.soundjay.com/button/beep-07.wav" autoplay loop></audio>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
